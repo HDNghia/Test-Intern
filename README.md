@@ -1,7 +1,7 @@
 # Run program
 1. Dowload xampp 
 2. Open xampp and start apache, MySQL 
-3. Choose Admin in row MySQL
+3. Choose Admin on row MySQL
 4. Choose import on navbar of page phpAdmin
 5. Choose file heroku.sql in foulder database in BE -> input
 6. Dowload nodejs version < 14 
