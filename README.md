@@ -1,6 +1,6 @@
 # Run program
 1. Dowload xampp 
-2. Open xampp and start apache, MySQL 
+2. Open xampp -> start apache and MySQL 
 3. Choose Admin on row MySQL
 4. Choose import on navbar of page phpAdmin
 5. Choose file heroku.sql in foulder database in BE -> input
