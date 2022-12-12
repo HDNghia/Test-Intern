@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = [1, 3, 5, 7, 9];
+        var min = a[0];
+        var max = a[0];
+        var sum = 0;
+        var Sum_min = a[1] + a[2] + a[3] + a[4];
+        var Sum_max = a[1] + a[2] + a[3] + a[4];
+        document.write("Input<br>")
+        for (var j = 0; j < 5; j++) {
+            document.write(a[j], " ");
+            if (min > a[j]) {
+                min = a[j]
+            }
+            else if (max < a[j]) {
+                max = a[j]
+            }
+        }
+        for (var i = 0; i < 5; i++) {
+            sum = 0;
+            for (var j = 0; j < 5; j++) {
+                sum = sum + a[j]
+            }
+            sum = sum - a[i];
+            if (Sum_min > sum) {
+                Sum_min = sum;
+            }
+            else if (Sum_max < sum) {
+                Sum_max = sum;
+            }
+        }
+        document.write("<br>Output<br>")
+        document.write(Sum_min, " ", Sum_max);
+        document.write("<br>Min in array: ", min);
+        document.write("<br>Max in array: ", max);
+    </script>
+</body>
+
+</html>
